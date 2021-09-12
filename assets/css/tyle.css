@@ -355,7 +355,7 @@ html {
 }
 .input-send {
     float: right;
-    
+    -webkit-appearance: none;
     color: #fff;
     background-color: #000;
     padding: 13px 16px;

@@ -1,0 +1,135 @@
+/* begin css tablet  */
+@media (min-width: 1024px) {
+    .memu-mobile {
+        display: none;
+    }
+}
+@media (min-width: 740px) and (max-width: 1024px) {
+    #content .content-section {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    .tickets {
+        width: auto;
+    }
+    .places-list {
+        margin-right: -16px;
+    }
+    .form-control {
+        padding: 0;
+    }
+    .memu-mobile {
+        display: none;
+    }
+    .places-body .buytickets {
+        padding: 15px 16px;
+    }
+    .input-send {
+        padding: 17px 23px;
+    }
+}
+/* end css tablet  */
+/* begin css mobile */
+@media (max-width: 740px) {
+    #header .search-btn {
+        display: none;
+    }
+    #header {
+        overflow: hidden;
+    }
+
+    #slider .text-content {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+    #nav li:first-child {
+        display: inline-block;
+    }
+    #nav li {
+        display: block;
+    }
+    #nav li a {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 39px;
+    }
+    .menu-items {
+        color: #fff;
+    }
+    
+    
+    
+    #content .about-heading {
+        
+        padding: 0 16px 15px 16px;
+    }
+    
+
+    #content .member-sub {
+        float: none;
+        width: auto;
+    }
+
+    #content .member-img {
+        width: 55%;
+    }
+
+    #content .member-main {
+        padding-top: 0;
+    }
+    .margin-text {
+        margin-bottom: 0;
+    }
+
+    #content .content-section {
+        padding: 16px;
+    }
+
+    .tickets {
+        width: 100%;
+    }
+
+    .colum {
+        float: none;
+    }
+    .colum-three {
+        width: 100%;
+    }
+    .s-col-full {
+        width: 100%;
+    }
+    .places-list {
+        margin-right: -14px;
+    }
+    #content .tour-section {
+        padding: 64px 0;
+    }
+    .contact-input-one {
+        margin: initial;
+    }
+    .contact-input-two { 
+        margin: initial;
+    }
+    .contact-info {
+        margin-bottom: 16px;
+        width: 100%;
+        padding-left: 16px;
+    }
+    .s-ml-12 {
+        margin-left: -12px;
+    }
+    .input-send {
+        margin-right: 9px;
+    }
+    
+}
+/* end css mobile */

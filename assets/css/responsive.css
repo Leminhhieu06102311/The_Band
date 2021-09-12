@@ -1,9 +1,14 @@
-/* begin css tablet  */
+/* begin css pc  */
 @media (min-width: 1024px) {
     .memu-mobile {
         display: none;
     }
+    
+
 }
+/* end css pc  */
+
+/* begin css tablet  */
 @media (min-width: 740px) and (max-width: 1024px) {
     #content .content-section {
         padding-right: 16px;
@@ -26,6 +31,15 @@
     }
     .input-send {
         padding: 17px 23px;
+    }
+    
+    .contact-input-one {
+        margin-left: -33px;
+        margin-right: 15px;
+    }
+    .contact-input-two {
+        margin-left: -32px;
+        margin-right: 16px;
     }
 }
 /* end css tablet  */
@@ -129,6 +143,9 @@
     }
     .input-send {
         margin-right: 9px;
+    }
+    .width-full {
+        width: 95.5%;
     }
     
 }
